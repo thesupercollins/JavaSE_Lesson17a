@@ -54,6 +54,7 @@ public class Main extends Application {
         scatter.getData().addAll(series1, series2);
 
         Scene scene  = new Scene(scatter, 800, 600);
+        scene.getStylesheets().add("sample/style.css");
         primaryStage.setScene(scene);
         primaryStage.show();
     }
